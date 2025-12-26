@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume</title>
+
+  <!-- Inter: 400, 500, 600 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <div class="brand">
+        <img class="brand__photo" src="./img/me.jpg" alt="Фото" />
+        <div class="brand__text">
+          <div class="brand__name">ГДА</div>
+          <div class="brand__role">Backend / Data</div>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Навигация по слайдам">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#personal">Personal Info</a></li>
+          <li><a class="nav__link" href="#summary">Summary</a></li>
+          <li><a class="nav__link" href="#experience">Experience</a></li>
+          <li><a class="nav__link" href="#skills">Skills</a></li>
+          <li><a class="nav__link" href="#projects">Projects</a></li>
+          <li><a class="nav__link" href="#awards">Awards</a></li>
+          <li><a class="nav__link" href="#education">Education</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="slides">
+    <section class="slide is-active" id="personal" data-title="Personal Info">
+        <div class="container">
+            <div class="pi">
+              <img class="pi__photo" src="./img/me.jpg" alt="Фото" />
+          
+              <div class="pi__card">
+                <div class="pi__top">
+                  <h1 class="pi__name">Ghoibov Dadojon Abdunazarovich</h1>
+                  <div class="pi__role">C++ Developer · Backend / ML</div>
+                  <div class="pi__stack">
+                    <span class="chip">C++17/20</span>
+                    <span class="chip">Python</span>
+                    <span class="chip">FastAPI</span>
+                    <span class="chip">PostgreSQL</span>
+                    <span class="chip">Docker</span>
+                    <span class="chip">Linux</span>
+                  </div>
+                </div>
+          
+                <div class="pi__contacts">
+                  <a class="contact" href="tel:+7(999)771-80-60">
+                    <span class="contact__label">Phone</span>
+                    <span class="contact__value">+7(999)771-80-60</span>
+                  </a>
+          
+                  <a class="contact" href="https://t.me/itsdokha" target="_blank" rel="noreferrer">
+                    <span class="contact__label">Telegram</span>
+                    <span class="contact__value">@itsdokha</span>
+                  </a>
+          
+                  <a class="contact" href="https://github.com/itsdokha" target="_blank" rel="noreferrer">
+                    <span class="contact__label">GitHub</span>
+                    <span class="contact__value">github.com/itsdokha</span>
+                  </a>
+          
+                  <a class="contact" href="mailto:itsdokha@mail.com">
+                    <span class="contact__label">Email</span>
+                    <span class="contact__value">itsdokha@mail.com</span>
+                  </a>
+
+                  <a class="contact">
+                    <span class="contact__label">Languages</span>
+                    <span class="contact__value">Russian(Native) · English(B2)</span>
+                  </a>                  
+                </div>
+              </div>
+            </div>
+          </div>          
+    </section>
+
+    <section class="slide" id="summary" data-title="Summary">
+      <div class="container">
+        <h1>Summary</h1>
+        <p><tab> </tab>Skilled C++ Developer with a strong foundation in systems programming,
+            networking, and algorithm optimization, combined with solid experience
+            in data analysis and machine learning. Proficient in building high-
+            performance applications, secure communication protocols, and cross-
+            platform software. Demonstrated ability to design scalable architectures,
+            automate processes, and extract insights from complex datasets.</p> 
+        <p>
+            Proficient in modern C++ (C++17/20), STL, multithreading, and low-level
+            system interactions. Complemented by hands-on experience with Python,
+            FastAPI, REST APIs, and ML frameworks (e.g., TensorFlow, scikit-learn) to
+            build data-driven solutions. Capable of working across the full
+            development lifecycle — from requirements gathering to deployment and
+            performance tuning.</p>
+      </div>
+    </section>
+
+    <section class="slide" id="experience" data-title="Experience">
+      <div class="container">
+        <article class="exp-item">
+            <div class="exp-top">
+              <h3 class="exp-company">HSE University</h3>
+              <span class="exp-dates">2022 — Present</span>
+            </div>
+          
+            <div class="exp-role">Developer</div>
+          
+            <ul class="exp-bullets">
+              <li>Built a secure VPN service based on the VLESS protocol and Xray core,
+                integrated with Reality for advanced traffic encryption and obfuscation.
+                The service supports over 50,000 online users.</li>
+              <li>Developed a REST API leveraging machine learning to perform face-
+                swapping, allowing users to replace their face with any other. The
+                application has over 100,000 users.</li>
+              <li>Designed and implemented a REST API using FastAPI, enabling efficient
+                communication between multiple microservices.</li>
+              <li>Applied machine learning techniques to create a predictive model that
+                accurately forecasts coordinates on images.</li>
+              <li>Developed an automated image classification system for real-time
+                processing and categorization.</li>
+            </ul>
+          </article>          
+      </div>
+    </section>
+
+    <section class="slide" id="skills" data-title="Skills">
+        <div class="container">
+            <div class="skills">
+              <h1 class="skills__title">Skills</h1>
+          
+              <div class="skills__list">
+                <div class="skills__item">
+                  <div class="skills__name">C, C++</div>
+                </div>
+          
+                <div class="skills__item">
+                  <div class="skills__name">Math</div>
+                  <div class="skills__desc">
+                    Algebra, Probability Theory, Combinatorics, Mathematical statics, Logic,
+                    Differential equation, Discrete math
+                  </div>
+                </div>
+          
+                <div class="skills__item"><div class="skills__name">Linux</div></div>
+                <div class="skills__item"><div class="skills__name">Docker</div></div>
+                <div class="skills__item"><div class="skills__name">Assembler x86-64, ARMv8</div></div>
+                <div class="skills__item"><div class="skills__name">CI/CD</div></div>
+                <div class="skills__item"><div class="skills__name">REST API</div></div>
+          
+                <div class="skills__item">
+                  <div class="skills__name">Protocols</div>
+                  <div class="skills__desc">HTTPS, HTTP, TCP, UDP, FTP, SMTP</div>
+                </div>
+          
+                <div class="skills__item"><div class="skills__name">Python</div></div>
+                <div class="skills__item"><div class="skills__name">SQL</div></div>
+                <div class="skills__item"><div class="skills__name">Git</div></div>
+              </div>
+            </div>
+          </div>          
+    </section>
+
+    <section class="slide" id="projects" data-title="Projects">
+      <div class="container">
+        <div class="projects">
+          <h1 class="projects__title">Projects</h1>
+      
+          <article class="proj">
+            <div class="proj__top">
+              <h3 class="proj__name">Cross-platform messenger</h3>
+              <span class="proj__dates">March 2025 — Present</span>
+            </div>
+      
+            <a class="proj__link" href="https://github.com/Hichine/KoftaGatBackend" target="_blank" rel="noreferrer">
+              https://github.com/Hichine/KoftaGatBackend
+            </a>
+      
+            <p class="proj__desc">
+              Cross-platform messenger in C++, supporting end-to-end encryption, file transfer, and a custom lightweight
+              protocol for efficient communication.
+            </p>
+          </article>
+      
+          <!-- следующие проекты добавляй так же -->
+        </div>
+      </div>      
+    </section>
+
+    <section class="slide" id="awards" data-title="Awards">
+      <div class="container">
+        <div class="awards">
+          <h1 class="awards__title">Awards</h1>
+      
+          <div class="award">
+            <div class="award__name">International math competition</div>
+            <div class="award__place">1 place</div>
+            <div class="award__years">2017, 2018</div>
+          </div>
+      
+          <div class="award">
+            <div class="award__name">Republic math competition</div>
+            <div class="award__years">2019 — 2022</div>
+          </div>
+      
+          <!-- дальше добавляй по аналогии -->
+        </div>
+      </div>      
+    </section>
+
+    <section class="slide" id="education" data-title="Education">
+      <div class="container">
+        <div class="edu">
+          <h1 class="edu__title">Education</h1>
+
+          <article class="edu__item">
+            <div class="edu__top">
+              <h3 class="edu__place">School №32</h3>
+              <span class="edu__dates">2011-2020</span>
+            </div>
+            <div class="edu__meta">Konibodom</div>
+          </article>
+
+          <article class="edu__item">
+            <div class="edu__top">
+              <h3 class="edu__place">Lyceum №1</h3>
+              <span class="edu__dates">2020-2022</span>
+            </div>
+            <div class="edu__meta">Khujand</div>
+          </article>
+      
+          <article class="edu__item">
+            <div class="edu__top">
+              <h3 class="edu__place">HSE University</h3>
+              <span class="edu__dates">September 2022 — Present</span>
+            </div>
+            <div class="edu__meta">Moscow</div>
+          </article>
+      
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
